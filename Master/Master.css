@@ -1,0 +1,27 @@
+.Mainblock{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 1000px;
+    height: 2000px;
+    border-style: solid;
+    border-color: black;
+    float: left;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    width: 200px;
+    height: 440px;
+    margin-top: 50px;
+    margin-left: 25px;
+    border-style: solid;
+    border-color: black;
+    justify-content: space-between;
+}
+.menu-block{
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    height: 140px
+}

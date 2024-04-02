@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ТЕстик</title>
+        <meta charset="UTF-8">
+        <link rel = "stylesheet" href = "style.css">
+        <link rel = "stylesheet" href = "../Master.css">
+    </head>
+    <body style = "display: flex;">
+        <div class="Mainblock">  
+            <div class="bigblock">
+                <progress id = "time" max = "100" value = "0" class = "timer"> 20</progress>
+            </div>
+            <div class = "bigblock">
+                <div class="block" id = 'answer1' onclick="choise1()">9</div>
+                <div class="block" id = 'answer2' onclick="choise2()">8</div>
+            </div>     
+            <div id = "res" style = "margin: auto; width: 200px; font-size: 50px;">результат:</div>
+            <button id = "restart" style = "display: block; margin: auto; width: 200px; font-size: 50px; " onclick="restart()">рестарт</button>
+            <div id = "rec" style = "margin: auto; width: 200px; font-size: 50px;">рекорд:</div>
+        </div>
+        <div class = "menu">
+            <a href = "../Master.html"><div class = "menu-block" >меин</div></a>
+            <a href = "../test/text.html"><div class = "menu-block" >циферки</div></a>
+            <a href = "../Dino/pr.html"><div class = "menu-block" >кабанчик</div></a>
+        </div>
+    </body>    
+    <script src = "code.js">
+    </script>
+</html>
